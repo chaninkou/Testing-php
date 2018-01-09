@@ -34,6 +34,7 @@ echo $usersName . "</br>";
 echo $moviesName . "</br>";
 echo $age . "</br>";
 
+#Using EOD to print a long string
 $str = <<<EOD
 The customers name is
 $usersName and they watch $moviesName
@@ -41,6 +42,25 @@ with the age of $age</br>
 EOD;
 
 echo $str;
+
+#define is for a number that won't change
+define('PI', 3.14);
+
+echo "PI is " . PI;
+
+#adding
+echo "</br> 5 + 2.3 = " . (integer) (5+2.5);
+
+#shortcut
+$randomNumber = 6;
+
+echo "</br>++randomNumber = " . ++$randomNumber . "</br>";
+echo "randomNumber++ = " . $randomNumber++ . "</br>";
+
+
+
+
+
 
 
 ?>
