@@ -57,7 +57,32 @@ $randomNumber = 6;
 echo "</br>++randomNumber = " . ++$randomNumber . "</br>";
 echo "randomNumber++ = " . $randomNumber++ . "</br>";
 
+# using if statement
+if(5==5){
+	echo '5 = 5';
+}else{
+	echo '5 != 5';
+}
 
+# elseif 
+echo "</br>";
+$apple = 5;
+$orange = 10;
+if(($apple > 25) && ($orange > 9)){
+	echo '30% Discount';
+} elseif(($apple > 30) || ($orange > 8)){
+	echo '15% Discount';
+} elseif(!(($apple < 4))){
+	echo '5% Discount';
+}else{
+	echo 'nothing';
+}
+
+// condition ? value if true : value if false
+
+$smallestNumber = (10 < 15) ? 10 : 15;
+
+echo "</br>" . $smallestNumber;
 
 
 
