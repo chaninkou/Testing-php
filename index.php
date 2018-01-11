@@ -82,8 +82,47 @@ if(($apple > 25) && ($orange > 9)){
 
 $smallestNumber = (10 < 15) ? 10 : 15;
 
-echo "</br>" . $smallestNumber;
+echo "</br>" . $smallestNumber . "</br>";
 
+// switch statement
+switch($usersName){
+	case "Mike" :
+		echo "Hello Mike" . "</br>";
+		break;
+	default :
+		echo "Hello Valued Customer" . "</br>";
+		break;
+}
+
+// while loop
+$num = 0;
+
+while($num < 5){
+	echo ++$num . ',';
+}
+
+echo "</br>";
+for($num = 0; $num <= 5; $num++)
+{
+	echo $num;
+	if($num != 5){
+		echo ', ';
+	} else{
+		break;
+	}
+}
+
+//array
+$friend = array('Alex', 'michael', 'emily');
+
+echo 'emily is ' . $friend[2];
+
+$friend[4] = 'jeff';
+
+//foreach
+foreach($friend as $person){
+	echo $person . ',';
+}
 
 
 
