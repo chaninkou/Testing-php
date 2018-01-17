@@ -124,6 +124,17 @@ foreach($friend as $person){
 	echo $person . ',';
 }
 
+// sort($yourarray)
+// SORT_NUMERIC or , SORT_STRING
+// asort($yourarray)
+// ksort($yourarray)
+$randomString = "            Random sentence         ";
+
+// useful tools
+echo "</br>" . strlen("$randomString") . "</br>";
+echo strlen(ltrim("$randomString")) . "</br>";
+echo strlen(rtrim("$randomString")) . "</br>";
+echo strlen(trim("$randomString")) . "</br>";
 
 
 
